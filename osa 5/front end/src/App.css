@@ -1,0 +1,58 @@
+.blogname {
+  font-weight: bold;
+}
+
+.bad {
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  border: 3px solid red;
+  padding: 0.4em;
+  border-radius: 10px;
+  background-color: lightcoral;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.good {
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  border: 3px solid green;
+  padding: 0.4em;
+  border-radius: 10px;
+  background-color: lightgreen;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+}
+
+.row button {
+  margin-left: 0.5em;
+}
+
+.row p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.row p:last-child {
+  margin-bottom: 1em;
+}
+
+#every-second .row:nth-child(even) {
+  background-color: lightgray;
+  
+}
+
+#delete {
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 0;
+}
