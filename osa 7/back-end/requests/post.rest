@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RpIiwiaWQiOiI1ZWExZDRkOTI1YWI4YTRlNDgxN2IwNjMiLCJpYXQiOjE1ODc3NDU2Mjh9.gd0oJgo5DYI81MU_uRK329fAkHiDGmObeFQqBXEbL-0
+
+{
+    "title": "Näin poistetaan blogi",
+    "author": "testi",
+    "url": "www.www.wwwww",
+    "likes": "0"
+}
